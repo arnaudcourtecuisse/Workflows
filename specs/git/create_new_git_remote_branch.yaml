@@ -1,6 +1,6 @@
 ---
 name: Create new git remote branch
-command: "git checkout -b {{branch_name}}\ngit push {{remote_name}} {{branch_name}}"
+command: "git checkout -b {{branch_name}}\ngit push -u {{remote_name}} {{branch_name}}"
 tags:
   - git
 description: Creates a new local git branch and pushes the branch to a remote server to create a remote branch of the same name.
